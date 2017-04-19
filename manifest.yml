@@ -1,0 +1,11 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: hyunwoo-Iot-2
+  host: hyunwoo-Iot-2
+  disk_quota: 1024M
+  services:
+  - hyunwoo-Iot-2-cloudantNoSQLDB
+  - hyunwoo-Iot-2-iotf-service
